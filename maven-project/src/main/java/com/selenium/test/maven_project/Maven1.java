@@ -13,6 +13,7 @@ public class Maven1
 		WebDriver d=new ChromeDriver();
 		d.get("https://connect.maveric-systems.com/index.php/site/login");
 		d.quit();
+		System.out.println("Driver Run Successfull");
 		
 	}
 }
